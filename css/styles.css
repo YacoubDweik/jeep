@@ -647,7 +647,7 @@ a.more:hover {
 
 #reserve form .contact input:not(input[name="agree"], input.more) {
   display: block;
-  width: 50vw;
+  width: calc(30% + 100px);
   margin-left: auto;
   margin-right: auto;
   border-radius: 20px;
@@ -713,7 +713,7 @@ a.more:hover {
 
 @media (min-width: 768px) {
   #reserve form .contact input:not(input[name="agree"], input.more) {
-  width: 25vw;
+  width: 250px;
   }
   
   #reserve .container {
